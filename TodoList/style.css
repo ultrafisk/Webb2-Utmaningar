@@ -2,17 +2,13 @@ body {
     font-family: "Comic Sans", Arial, sans-serif;
 }
 li {
-    background-color: darkgreen;
-    max-width: 50%;
-    border-style: inset;
-    color: white;
-    list-style: none;
+    background-color: darkgreen;    /*bakgrundfärg*/
+    max-width: 50%;                 /*max bredd*/
+    border-style: inset;            /*border*/
+    color: white;                   /*text färg*/
+    list-style: none;               /*tar bort punkterna från listan*/
 }
-input {
-    background-color: darkgreen;
-    border: none;
-}
-.done {
+.done {                             /*"done" classen som ändrar bakgrund- och textfärg och gör strikethrough*/
     background-color: white;
     text-decoration: line-through;
     color: black;
