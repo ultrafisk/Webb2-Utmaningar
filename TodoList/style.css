@@ -1,0 +1,18 @@
+body {
+    font-family: "Comic Sans", Arial, sans-serif;
+}
+li {
+    background-color: darkgreen;
+    max-width: 50%;
+    border-style: inset;
+    color: white;
+}
+input {
+    background-color: darkgreen;
+    border: none;
+}
+.done {
+    background-color: white;
+    text-decoration: line-through;
+    color: black;
+}
