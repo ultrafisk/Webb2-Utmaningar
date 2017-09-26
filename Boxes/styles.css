@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+div {
+    width: 200px;
+    height: 200px;
+    float: left;
+    max-height: 200px;
+}
+.box1 {
+    background-color: #ff0000;
+}
+.box2 {
+    background-color: #ff8000;
+}
+.box3 {
+    background-color: #ffff00;
+}
+.box4 {
+    background-color: #00ff00;
+}
+.box5 {
+    text-align: center;
+    vertical-align: middle;
+}
+.box6 {
+    background-color: #00e2ff;
+}
+.box7 {
+    background-color: #0031ff;
+}
+.box8 {
+    background-color: #9300ff;
+}
+.box9 {
+    background-color: #ff0080;
+}
