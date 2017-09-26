@@ -1,5 +1,5 @@
 body {
-    text-align: center;
+    
 }
 .row {
     float: left;    /*gör så att allt i classen float-ar till vänster*/
@@ -21,8 +21,8 @@ div {               /*sätter storleken på lådornA*/
     background-color: #00ff00;
 }
 .box5 {             /*centrerar texten*/
+    background-color: #ffffff;
     text-align: center;
-    vertical-align: middle;
 }
 .box6 {
     background-color: #00e2ff;
