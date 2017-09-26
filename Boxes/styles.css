@@ -1,11 +1,12 @@
 body {
     text-align: center;
 }
+.row {
+    float: left;
+}
 div {
     width: 200px;
     height: 200px;
-    float: left;
-    max-height: 200px;
 }
 .box1 {
     background-color: #ff0000;
