@@ -1,3 +1,38 @@
 body {
-    
+    color: #2f2f2f;
+    font-family: "Times New Roman", Times, sans-serif;
+}
+.document {
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+}
+.header {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+.left {
+    float: left;
+    margin: 10px;
+}
+.right {
+    float: right;
+    border-style: solid;
+    padding: 5px;
+    margin-right: 10px;
+}
+.content {
+    margin: 1em;
+}
+.content p {
+    text-align: justify;
+    margin: 1em;
 }
