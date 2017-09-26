@@ -6,6 +6,7 @@ li {
     max-width: 50%;
     border-style: inset;
     color: white;
+    list-style: none;
 }
 input {
     background-color: darkgreen;
