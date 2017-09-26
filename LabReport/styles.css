@@ -1,38 +1,36 @@
 body {
-    color: #2f2f2f;
-    font-family: "Times New Roman", Times, sans-serif;
+    font-family: "Times New Roman", Times, serif; /*Font*/
 }
-.document {
+.document { /*Sätter en border med rundade hörn och sätter bredden och centrerar*/
     border-style: solid;
     border-color: black;
     border-radius: 10px;
     width: 800px;
     margin: auto;
 }
-.header {
+.header { /*border som skiljer övre delen och undre delen. overflow gör så att float elementen är innanför bordern*/
     border-bottom-style: solid;
     border-bottom-color: black;
     overflow: auto;
 }
 
-h1 {
+h1 { /*Centrerad titel*/
     text-align: center;
-    color: #000000;
 }
-.left {
+.left { /*gör den vänstar info grejen*/
     float: left;
     margin: 10px;
 }
-.right {
+.right { /*gör den högra info rutan*/
     float: right;
     border-style: solid;
     padding: 5px;
     margin-right: 10px;
 }
-.content {
+.content { /*skapar den stora delen av dokumentet, med en margin så att den är längre från bordern*/
     margin: 1em;
 }
-.content p {
+.content p { /*mer margin så texten är ännu längre in*/
     text-align: justify;
     margin: 1em;
 }
