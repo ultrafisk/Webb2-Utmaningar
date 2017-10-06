@@ -17,7 +17,7 @@ body {
 h1 { /*Centrerad titel*/
     text-align: center;
 }
-.left { /*gör den vänstrar info grejen*/
+.left { /*gör den vänstra info grejen*/
     float: left;
     margin: 10px;
 }
