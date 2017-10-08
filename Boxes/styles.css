@@ -22,7 +22,9 @@ div {               /*sätter storleken på lådornA*/
 }
 .box5 {             /*centrerar texten*/
     background-color: #ffffff;
+    font-size: 2em;
     text-align: center;
+    line-height: 200px;
 }
 .box6 {
     background-color: #00e2ff;
