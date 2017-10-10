@@ -1,0 +1,27 @@
+/*Erik Hacker*/
+/*class namnen är inte dem bästa någonsinn*/
+
+body {                              /*bestämmer vilken font som ska användas och sätter en minimum-bredd så att textrutan inte blir lika tunn som mina armar*/
+    font-family: Lato, sans-serif;
+    min-width: 1000px;
+}
+
+.content {                          /*gör så att rutan är hälften av body, centrerad, har en border, padding innanför bordern, inte är för bred och att texten är som den är*/
+    width: 50%;
+    max-width: 500px;
+    text-align: justify;
+    margin: auto;
+    border: solid;
+    padding: 1%;
+}
+
+.content h2 {                       /*gör så att titlen är centrerad*/
+    text-align: center;
+}
+
+.catpic {                           /*display gör så att bilden blir ett block element så att den kan centreras. width så att bilden är 50% av textrutan, border-radius så att bilden får runda kanter och margin så att den är i mitten*/
+    display: block;
+    width: 50%;
+    border-radius: 50%;
+    margin: auto;
+}
