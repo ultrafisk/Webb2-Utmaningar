@@ -4,6 +4,7 @@
 body {                              /*bestämmer vilken font som ska användas och sätter en minimum-bredd så att textrutan inte blir lika tunn som mina armar*/
     font-family: Lato, sans-serif;
     min-width: 1000px;
+    font-weight: 300;
 }
 
 .content {                          /*gör så att rutan är hälften av body, centrerad, har en border, padding innanför bordern, inte är för bred och att texten är som den är*/
