@@ -27,15 +27,11 @@ body {
     border: solid;
     border-color: hotpink;
     color: white;
+    text-decoration: none;
 }
 
 .button:hover { /*ändrar knappens färg när man hovrar över den*/
     color: hotpink;
     background-color: #ffffff;
     transition: 0.3s;
-}
-
-a {             /*ändrar textens färg så att den inte är blå och har sträck under sig, inherit gör att den tar från elementet den ligger i*/
-    text-decoration: none;
-    color: inherit;
 }
