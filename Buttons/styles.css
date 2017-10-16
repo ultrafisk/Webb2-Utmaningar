@@ -1,0 +1,41 @@
+/*Erik Hacker*/
+
+/* ----- Bara lite bakgrund ----- */
+body {
+    background-color: #b5b5b5;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+.page {
+    width: 500px;
+    background-color: #ffffff;
+    padding: 2%;
+    margin: auto;
+    height: 100%;
+}
+
+/* ----- BUTTONS ----- */
+
+.button {       /*gör så att knappen blir fin; padding, färg, rundad osv.*/
+    margin: 2% auto;
+    text-align: center;
+    background-color: hotpink;
+    padding: 2% 10%;
+    width: 15%;
+    border-radius: 1em;
+    border: solid;
+    border-color: hotpink;
+    color: white;
+}
+
+.button:hover { /*ändrar knappens färg när man hovrar över den*/
+    color: hotpink;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+a {             /*ändrar textens färg så att den inte är blå och har sträck under sig, inherit gör att den tar från elementet den ligger i*/
+    text-decoration: none;
+    color: inherit;
+}
