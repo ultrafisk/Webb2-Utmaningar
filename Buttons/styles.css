@@ -12,7 +12,6 @@ body {
     background-color: #ffffff;
     padding: 2%;
     margin: auto;
-    height: 100%;
 }
 
 /* ----- BUTTONS ----- */
@@ -22,7 +21,6 @@ body {
     text-align: center;
     background-color: hotpink;
     padding: 2% 10%;
-    width: 15%;
     border-radius: 1em;
     border: solid;
     border-color: hotpink;
