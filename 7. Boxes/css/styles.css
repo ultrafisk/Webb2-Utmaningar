@@ -47,12 +47,12 @@ img:hover {
 }
 /*Footer*/
 #foot {
-    width: 100%;
-    min-width: 600px;
+    position: absolute;
+    max-width: 100%;
     background-color: #ff69b4;
     color: #fff;
     text-align: center;
-    overflow: hidden;
+    overflow: visible;
     margin-top: 50px;
 }
 
