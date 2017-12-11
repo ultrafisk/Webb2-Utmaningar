@@ -13,21 +13,25 @@ body * {
 h2 {
     font-size: 250%;
 }
+
+/*texten hamnar på vänster sida*/
 form {
     width: 50%;
     margin: auto;
     text-align: left;
 }
+/*elementen hamnar på höger*/
 form * {
     float: right;
     clear: both;
 }
-form .medd {
-    width: 100%;
-    height: 100px
-}
+/*knappen hamnar i mitten*/
 form .submit {
     float: none;
     left: 45%;
     position: relative;
+    font-size: 100%;
+}
+textarea {
+    width: 100%;
 }

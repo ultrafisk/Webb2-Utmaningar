@@ -17,6 +17,7 @@ h3 {
     font-size: 150%;
     text-align: center;
 }
+/*orange:a linjen*/
 .line {
     background-color: #ffa700;
     height: 4px;
@@ -24,9 +25,10 @@ h3 {
     margin: 5px auto 20px auto;
     border-radius: 420px;
 }
+
+/*Låda som lådorna är i, så att de aldrig kan ta upp mer plats än storleken på fönsterrutan*/
 .boxbox {
     width: 100%;
-    overflow: hidden;
 }
 .box {
     width: 28%;
