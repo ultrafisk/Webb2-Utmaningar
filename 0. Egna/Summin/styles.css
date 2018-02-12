@@ -30,8 +30,8 @@ p {
     text-align: justify;
 }
 footer {
-    position: static;
-    bottom: 0;
+    position: relative;
+    top: 0px;
     width: 98%;
     text-align: center;
     background-color: #222;
