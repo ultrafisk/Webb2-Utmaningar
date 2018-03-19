@@ -16,28 +16,30 @@ body {
 }
 .box.n {
     margin: 0 100px 0 100px;
-    animation: flyRot 2s;
+    animation: flyRot 2s 1s;
 }
 .box.w {
     margin: 0 0 0 0;
+    animation: flyRot 2s 2s;
 }
 .box.e {
     margin: 0 0 0 100px;
+    animation: flyRot 2s;
 }
 .box.s {
     margin: 0px 0 0 100px;
+    animation: flyRot 2s 1s;
 }
 @keyframes flyRot{
     0% {
         transform: translateX(-1000px);
-        transform: rotate(0deg);
     }
     50% {
         transform: translateX(0);
-        transform: rotate(0deg);
+        transform: rotate(0);
     }
     100% {
         transform: translateX(0);
-        transform: rotate(45deg)
+        transform: rotate(45deg);
     }
 }
