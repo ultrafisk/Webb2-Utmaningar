@@ -9,8 +9,10 @@ button.addEventListener('click', toggle)
 
 // Deklarera allt annat här
 
+//variabel som säger om hidden är aktiv
 var active = 0;
 
+//om inte aktiv ändrar till aktiv och sätter visibility till hidden, tvärtom om redan aktiv
 function toggle() {
     if(active == 0) {
         active = 1;
